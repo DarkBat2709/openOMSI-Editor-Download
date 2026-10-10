@@ -2,7 +2,7 @@ openOMSI Editor — Drive & Build
 
 Build and edit maps directly in openOMSI while you play. Drive buses and create your map. All in one application. Downloads and German/English guides.
 
-**[Download & releases](https://github.com/DarkBat2709/openOMSI-Editor/releases)** · **[English guide (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.21-pre/openOMSI-Editor-Quick-Guide-EN.pdf)** · **[Deutsche Anleitung (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.21-pre/openOMSI-Editor-Kurzanleitung.pdf)**
+**[Download & releases](https://github.com/DarkBat2709/openOMSI-Editor/releases)** · **[English guide (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.22-pre/openOMSI-Editor-Quick-Guide-EN.pdf)** · **[Deutsche Anleitung (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.22-pre/openOMSI-Editor-Kurzanleitung.pdf)**
 
 [English](#english) · [Deutsch](#deutsch)
 
@@ -22,14 +22,14 @@ This is DarkBat2709's editor fork of [openOMSI](https://github.com/openOMSI-Proj
 
 ### Download
 
-**Featured version: 0.7.21-pre**, based on openOMSI **0.2.27**. This is a pre-release for testing.
+**Featured version: 0.7.22-pre**, based on openOMSI **0.2.27**. This is a pre-release for testing.
 
 | File | Download |
 | --- | --- |
-| Ready-to-run editor — Linux x64 | [Linux package (.tar.gz)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.21-pre/openOMSI-Editor-0.7.21-pre-linux-x64.tar.gz) |
-| Download verification | [SHA256 checksum](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.21-pre/openOMSI-Editor-0.7.21-pre-linux-x64.tar.gz.sha256) |
-| English quick guide | [PDF](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.21-pre/openOMSI-Editor-Quick-Guide-EN.pdf) |
-| German quick guide | [PDF](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.21-pre/openOMSI-Editor-Kurzanleitung.pdf) |
+| Ready-to-run editor — Linux x64 | [Linux package (.tar.gz)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.22-pre/openOMSI-Editor-0.7.22-pre-linux-x64.tar.gz) |
+| Download verification | [SHA256 checksum](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.22-pre/openOMSI-Editor-0.7.22-pre-linux-x64.tar.gz.sha256) |
+| English quick guide | [PDF](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.22-pre/openOMSI-Editor-Quick-Guide-EN.pdf) |
+| German quick guide | [PDF](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.7.22-pre/openOMSI-Editor-Kurzanleitung.pdf) |
 
 For newer versions, check the **[release list](https://github.com/DarkBat2709/openOMSI-Editor/releases)**. The package linked above is for Linux x64.
 
@@ -58,7 +58,7 @@ Der Editor ist ein eigener Fork von openOMSI von **DarkBat2709**. Die Inhalte de
 
 ### Herunterladen und starten
 
-Die oben verlinkte Version **0.7.21-pre** basiert auf **openOMSI 0.2.27** und ist eine Vorabversion zum Testen.
+Die oben verlinkte Version **0.7.22-pre** basiert auf **openOMSI 0.2.27** und ist eine Vorabversion zum Testen.
 
 1. Das **Linux-x64-Paket** aus der Tabelle herunterladen und entpacken.
 2. `start-editor.sh` starten und den Pfad zu den OMSI-Inhalten gemäß Anleitung einrichten.
