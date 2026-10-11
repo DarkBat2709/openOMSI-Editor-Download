@@ -10,7 +10,7 @@ Build and edit maps directly in openOMSI while you play. Drive buses and create 
 
 ### Drive and build in the same application
 
-The openOMSI Editor combines bus driving with in-game map editing. Build and adjust your map inside openOMSI without switching to a separate map editor.
+The openOMSI Editor is a in-game map editor. Build and adjust your map inside openOMSI without switching to a separate map editor.
 
 - Build roads with splines.
 - Create junctions and roundabouts with dedicated builders and labelled arms.
@@ -46,7 +46,7 @@ Both guides are also included in the package's `docs` folder. GitHub's “Source
 
 ### Busfahren und Kartenbauen im selben Programm
 
-Mit dem openOMSI-Editor kannst du Bus fahren und deine Karte direkt im Spiel bearbeiten. Ein separates Kartenbauprogramm ist dafür nicht erforderlich.
+Mit dem openOMSI-Editor kannst direkt im Spiel bearbeiten. Ein separates Kartenbauprogramm ist dafür nicht erforderlich.
 
 - Straßen mit Splines bauen.
 - Kreuzungen und Kreisverkehre mit Baukästen und beschrifteten Armen erstellen.
