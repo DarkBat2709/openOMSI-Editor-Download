@@ -1,94 +1,112 @@
-openOMSI Editor — Drive & Build
+# openOMSI Editor — In-game map editor by DarkBat2709
 
-Build and edit maps directly in openOMSI while you play. Drive buses and create your map. All in one application. Downloads and German/English guides.
+**[English](#english) · [Deutsch](#deutsch)**
 
-**[Download & releases](https://github.com/DarkBat2709/openOMSI-Editor/releases)** · **[English guide (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Quick-Guide-EN.pdf)** · **[Deutsche Anleitung (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Kurzanleitung.pdf)**
+Free, experimental community map editor for openOMSI: edit roads, splines, AI traffic paths, terrain and scenery directly in the game. Requires original OMSI 2 content.
 
-[English](#english) · [Deutsch](#deutsch)
+Kostenloser, experimenteller Community-Karteneditor für openOMSI: Straßen, Splines, KI-Fahrwege, Gelände und Objekte direkt im Spiel bearbeiten. Originale OMSI-2-Inhalte werden benötigt.
+
+**[Downloads](https://github.com/DarkBat2709/openOMSI-Editor/releases/tag/v0.8.0-pre)** · **[Video](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Vorstellung-DE.mp4)** · **[English guide](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Quick-Guide-EN.pdf)** · **[Deutsche Anleitung](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Kurzanleitung.pdf)**
 
 ## English
 
-### Drive and build in the same application
+### What is openOMSI Editor?
 
-The openOMSI Editor is an in-game map editor. Build and adjust your map inside openOMSI without switching to a separate map editor.
+**openOMSI Editor by DarkBat2709** is a free community fork of [openOMSI](https://github.com/openOMSI-org/openOMSI) with extended in-game map-building tools. It combines driving and map editing in the same application. It is an independent community project, not an official openOMSI release.
 
-- Build roads with splines.
-- Shape and paint terrain, place scenery, and use bridge/tunnel height tools.
-- Move editor windows and continue your driving session after editing.
-- Create junctions and roundabouts with dedicated builders and labelled arms.
-- Create and edit AI traffic paths.
-- Move path points with the mouse and connect traffic paths.
-- Set paths to allow all vehicles or buses only.
+**Current editor release: 0.8.0-pre**, based on **openOMSI 0.2.38**. Information updated: **13 October 2026**.
 
-This is DarkBat2709's editor fork of [openOMSI](https://github.com/openOMSI-Project/openOMSI). It requires the original OMSI 2 content. The editor download does not include OMSI 2 or third-party maps and mods.
+### What can I build and edit?
 
-### Download
+- Place, move, rotate, copy and delete scenery objects and road splines.
+- Connect roads, create junctions and roundabouts.
+- Create and edit AI traffic paths, shape curves and add turning connections.
+- Shape and paint terrain; create maps and tiles.
+- Adjust road heights and gradients for bridges and tunnels, use a work plane and hide terrain while editing. Decks, walls and portals use catalogue assets.
+- Use movable editor windows and German or English controls.
+- Edit during a driving session and reload the map with the bus and onboard passengers preserved within the limits described in the guides.
 
-**Featured version: 0.8.0-pre**, based on openOMSI **0.2.38**. This is a pre-release for testing. The Linux binary requires **glibc 2.39 or newer** (built on Linux Mint 22.3).
+### Does official openOMSI already include an editor?
 
-| File | Download |
-| --- | --- |
-| Ready-to-run editor — Linux x64 | [Linux package (.tar.gz)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-linux-x64.tar.gz) |
-| Download verification | [SHA256 checksum](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-linux-x64.tar.gz.sha256) |
-| English quick guide | [PDF](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Quick-Guide-EN.pdf) |
-| German quick guide | [PDF](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Kurzanleitung.pdf) |
+Yes. The official [object editor](https://github.com/openOMSI-org/openOMSI/blob/main/docs/USER_GUIDE.md#object-editor) supports changes to existing scenery objects. Its documentation excludes splines, terrain and adding new objects. DarkBat2709's openOMSI Editor extends map editing with the tools listed above. The projects share the openOMSI foundation; this fork builds on the work of its contributors.
 
-For newer versions, check the **[release list](https://github.com/DarkBat2709/openOMSI-Editor/releases)**. The package linked above is for Linux x64.
+### Download and requirements
 
-### Demonstration video
+The ready-to-run **0.8.0-pre package is for Linux x64** and requires **glibc 2.39 or newer**. It was built on Linux Mint 22.3. An original OMSI 2 installation with its content is required. OMSI 2, third-party maps and mods are not included.
 
-[Watch/download the demonstration (MP4, German captions, 3:25, no audio)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Vorstellung-DE.mp4)
+- **[Linux x64 editor package](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-linux-x64.tar.gz)**
+- **[SHA256 checksum](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-linux-x64.tar.gz.sha256)**
+- **[English operating guide (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Quick-Guide-EN.pdf)**
+- **[German operating guide (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Kurzanleitung.pdf)**
 
-### Getting started
+Extract the archive to a separate folder and run:
 
-1. Download and extract the Linux package.
-2. Start `start-editor.sh` and configure your OMSI content path as described in the guide.
-3. Back up your map before editing.
-4. Use the included PDF guide to explore the editor tools.
+```bash
+bash start-editor.sh "/path/to/openOMSI-content"
+```
 
-Both guides are also included in the package's `docs` folder. GitHub's “Source code” archives are for developers; use the Linux package to run the editor.
+Set up the original OMSI 2 installation as described in the guide. Back up your maps before editing. The editor bundles its own engine; updating a separate openOMSI game installation does not update this editor package. GitHub's automatic “Source code” downloads contain source files, not the ready-to-run editor.
+
+Linux and Windows CI builds and automated tests passed for the released source. **This release does not provide a ready-to-run Windows editor package.** Build checks do not replace fresh installation and graphics testing.
+
+### Demonstration
+
+[Watch or download the demonstration video (MP4)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Vorstellung-DE.mp4): **3:25 minutes, Full HD, German captions, no audio**. It shows passenger boarding, connecting a road gap, editing AI paths, shaping the landscape and continuing the journey.
 
 ## Deutsch
 
-### Fahren und Kartenbauen im selben Programm
+### Was ist der openOMSI Editor?
 
-Mit dem openOMSI-Editor kannst du Karten direkt im Spiel bearbeiten. Ein separates Kartenbauprogramm ist dafür nicht erforderlich.
+Der **openOMSI Editor von DarkBat2709** ist ein kostenloser Community-Fork von [openOMSI](https://github.com/openOMSI-org/openOMSI) mit erweiterten Werkzeugen für den Kartenbau direkt im Spiel. Busfahren und Kartenbearbeitung finden im selben Programm statt. Es handelt sich um ein eigenständiges Community-Projekt, keine offizielle openOMSI-Veröffentlichung.
 
-- Straßen mit Splines bauen.
-- Gelände formen und texturieren, Landschaft ausstatten und Höhenwerkzeuge für Brücken/Tunnel nutzen.
-- Editorfenster verschieben und nach der Bearbeitung weiterfahren.
-- Kreuzungen und Kreisverkehre mit Baukästen und beschrifteten Armen erstellen.
-- KI-Fahrwege erstellen und bearbeiten.
-- Fahrwegpunkte mit der Maus verschieben und Fahrwege verbinden.
-- Fahrwege für alle Fahrzeuge oder nur für Busse freigeben.
+**Aktuelle Editor-Version: 0.8.0-pre**, auf Basis von **openOMSI 0.2.38**. Stand dieser Informationen: **13. Oktober 2026**.
 
-Der Editor ist ein eigener Fork von openOMSI von **DarkBat2709**. Die Inhalte des ursprünglichen **OMSI 2 werden benötigt**. OMSI 2 sowie fremde Karten und Mods sind nicht im Download enthalten.
+### Was kann ich bauen und bearbeiten?
+
+- Landschaftsobjekte und Straßensplines platzieren, verschieben, drehen, kopieren und löschen.
+- Straßen verbinden sowie Kreuzungen und Kreisverkehre erstellen.
+- KI-Fahrwege erstellen und bearbeiten, Kurven formen und Abbiegeverbindungen ergänzen.
+- Gelände formen und texturieren sowie Karten und Tiles anlegen.
+- Straßenhöhen und Steigungen für Brücken und Tunnel einstellen, eine Arbeitsebene verwenden und das Gelände beim Bearbeiten ausblenden. Bauteile, Wände und Portale stammen aus dem Katalog.
+- Verschiebbare Editorfenster und deutsche oder englische Bedienung nutzen.
+- Während einer Fahrt bauen und die Karte mit Übernahme des Busses und der Fahrgäste im Bus neu laden; Umfang und Grenzen stehen in den Anleitungen.
+
+### Hat das offizielle openOMSI bereits einen Editor?
+
+Ja. Der offizielle [Objekteditor](https://github.com/openOMSI-org/openOMSI/blob/main/docs/USER_GUIDE.md#object-editor) ermöglicht Änderungen an vorhandenen Landschaftsobjekten. Seine Dokumentation schließt Splines, Gelände und das Hinzufügen neuer Objekte aus. Der openOMSI Editor von DarkBat2709 ergänzt die oben beschriebenen Kartenbauwerkzeuge. Dieser Fork baut auf der Arbeit der openOMSI-Mitwirkenden auf.
+
+### Download und Voraussetzungen
+
+Das fertige Paket von **0.8.0-pre ist für Linux x64** und benötigt **glibc 2.39 oder neuer**. Es wurde auf Linux Mint 22.3 gebaut. Eine originale OMSI-2-Installation mit ihren Inhalten wird benötigt. OMSI 2, fremde Karten und Mods sind nicht im Paket enthalten.
+
+- **[Linux-x64-Editorpaket](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-linux-x64.tar.gz)**
+- **[SHA256-Prüfsumme](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-linux-x64.tar.gz.sha256)**
+- **[Englische Bedienungsanleitung (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Quick-Guide-EN.pdf)**
+- **[Deutsche Bedienungsanleitung (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Kurzanleitung.pdf)**
+
+Das Archiv in einen eigenen Ordner entpacken und starten:
+
+```bash
+bash start-editor.sh "/Pfad/zum/openOMSI-Inhaltsordner"
+```
+
+Die originale OMSI-2-Installation gemäß Anleitung einrichten. Karten vor dem Bearbeiten sichern. Der Editor enthält seine eigene Engine; ein Update einer separaten openOMSI-Spielinstallation aktualisiert das Editorpaket nicht. Die automatisch von GitHub angebotenen „Source code“-Archive enthalten Quellcode und sind nicht das startfertige Editorpaket.
+
+Die automatischen Builds und Tests für Linux und Windows sind für den veröffentlichten Quellstand bestanden. **Dieses Release enthält kein startfertiges Windows-Editorpaket.** Build-Prüfungen ersetzen keine Tests einer frischen Installation und der Grafikausgabe.
 
 ### Vorstellungsvideo
 
-[Vorstellung ansehen/herunterladen (MP4, Deutsch, 3:25, ohne Ton)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Vorstellung-DE.mp4)
+[Vorstellung ansehen oder herunterladen (MP4)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Vorstellung-DE.mp4): **3:25 Minuten, Full HD, deutsche Einblendungen, ohne Ton**. Zu sehen sind das Aufnehmen von Fahrgästen, das Schließen einer Straßenlücke, das Bearbeiten von KI-Fahrwegen und Landschaft sowie die anschließende Weiterfahrt.
 
-### Herunterladen und starten
+## Source code and feedback / Quellcode und Rückmeldungen
 
-Die oben verlinkte Version **0.8.0-pre** basiert auf **openOMSI 0.2.38** und ist eine Vorabversion zum Testen. Das Linux-Binärpaket benötigt **glibc 2.39 oder neuer** (gebaut auf Linux Mint 22.3).
+- [Released source / Veröffentlichter Quellstand: v0.8.0-pre](https://github.com/DarkBat2709/openOMSI-Editor/tree/v0.8.0-pre)
+- [All releases / Alle Veröffentlichungen](https://github.com/DarkBat2709/openOMSI-Editor/releases)
+- [Report a bug / Fehler melden](https://github.com/DarkBat2709/openOMSI-Editor/issues)
 
-1. Das **Linux-x64-Paket** aus der Tabelle herunterladen und entpacken.
-2. `start-editor.sh` starten und den Pfad zu den OMSI-Inhalten gemäß Anleitung einrichten.
-3. Vor der Bearbeitung eine Sicherung deiner Karte anlegen.
-4. Die deutsche PDF-Anleitung für die Bedienung der Werkzeuge verwenden.
+For bug reports, include the editor version, steps to reproduce the problem and a relevant log excerpt.
+Bitte bei Fehlerberichten die Editor-Version, Schritte zum Nachstellen und einen passenden Logauszug angeben.
 
-Die beiden Anleitungen liegen zusätzlich im Ordner `docs` des Pakets. Neue Versionen findest du in der **[Release-Übersicht](https://github.com/DarkBat2709/openOMSI-Editor/releases)**.
+This repository provides downloads and project information. Development takes place in the [editor repository](https://github.com/DarkBat2709/openOMSI-Editor).
 
-## Source code & feedback / Quellcode und Rückmeldungen
-
-- **[Editor source code — v0.8.0-pre](https://github.com/DarkBat2709/openOMSI-Editor/tree/v0.8.0-pre)**
-- **[Report an issue / Fehler melden](https://github.com/DarkBat2709/openOMSI-Editor/issues)**
-
-For bug reports, include the editor version, steps to reproduce the issue and a relevant log excerpt.
-
-Bitte bei Fehlermeldungen die Editor-Version, Schritte zum Nachstellen und einen passenden Logauszug angeben.
-
-This repository is the download and information page. Development and releases remain in the editor repository linked above.
-
-Dieses Repository dient als Download- und Informationsseite. Entwicklung und Veröffentlichungen bleiben im oben verlinkten Editor-Repository.
-
+Dieses Repository bietet Downloads und Projektinformationen. Die Entwicklung erfolgt im [Editor-Repository](https://github.com/DarkBat2709/openOMSI-Editor).
