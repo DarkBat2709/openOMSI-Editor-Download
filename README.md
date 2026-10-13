@@ -32,14 +32,18 @@ Yes. The official [object editor](https://github.com/openOMSI-org/openOMSI/blob/
 
 ### Download and requirements
 
-The ready-to-run **0.8.0-pre package is for Linux x64** and requires **glibc 2.39 or newer**. It was built on Linux Mint 22.3. An original OMSI 2 installation with its content is required. OMSI 2, third-party maps and mods are not included.
+- **[Windows x64 portable ZIP](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-windows-x64.zip)** · [SHA256 checksum](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-windows-x64.zip.sha256)
+
+For Windows: extract all files to a new writable folder, double-click `start-editor.cmd`, and configure your original OMSI 2 installation in the launcher. No Python, Rust or administrator rights are required. See `START-HERE.txt` in the ZIP. The package is unsigned; settings and logs may be shared with an existing openOMSI installation.
+
+Ready-to-run **0.8.0-pre packages are available for Linux x64 and Windows x64**. The Linux package requires **glibc 2.39 or newer**. It was built on Linux Mint 22.3. An original OMSI 2 installation with its content is required. OMSI 2, third-party maps and mods are not included.
 
 - **[Linux x64 editor package](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-linux-x64.tar.gz)**
 - **[SHA256 checksum](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-linux-x64.tar.gz.sha256)**
 - **[English operating guide (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Quick-Guide-EN.pdf)**
 - **[German operating guide (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Kurzanleitung.pdf)**
 
-Extract the archive to a separate folder and run:
+On Linux, extract the archive to a separate folder and run:
 
 ```bash
 bash start-editor.sh "/path/to/openOMSI-content"
@@ -47,7 +51,7 @@ bash start-editor.sh "/path/to/openOMSI-content"
 
 Set up the original OMSI 2 installation as described in the guide. Back up your maps before editing. The editor bundles its own engine; updating a separate openOMSI game installation does not update this editor package. GitHub's automatic “Source code” downloads contain source files, not the ready-to-run editor.
 
-Linux and Windows CI builds and automated tests passed for the released source. **This release does not provide a ready-to-run Windows editor package.** Build checks do not replace fresh installation and graphics testing.
+Linux and Windows CI builds and automated tests passed for the released source. The Windows ZIP and starter passed clean-extraction self-tests. Fresh Windows VM installation and gameplay testing are still pending.
 
 ### Demonstration
 
@@ -77,14 +81,18 @@ Ja. Der offizielle [Objekteditor](https://github.com/openOMSI-org/openOMSI/blob/
 
 ### Download und Voraussetzungen
 
-Das fertige Paket von **0.8.0-pre ist für Linux x64** und benötigt **glibc 2.39 oder neuer**. Es wurde auf Linux Mint 22.3 gebaut. Eine originale OMSI-2-Installation mit ihren Inhalten wird benötigt. OMSI 2, fremde Karten und Mods sind nicht im Paket enthalten.
+- **[Windows x64: portables ZIP](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-windows-x64.zip)** · [SHA256-Prüfsumme](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-windows-x64.zip.sha256)
+
+Unter Windows: Alle Dateien in einen neuen beschreibbaren Ordner entpacken, `start-editor.cmd` doppelt anklicken und im Launcher die originale OMSI-2-Installation einrichten. Python, Rust und Administratorrechte sind nicht erforderlich. Siehe `START-HERE.txt` im ZIP. Das Paket ist nicht signiert; Einstellungen und Logs können mit einer vorhandenen openOMSI-Installation geteilt werden.
+
+Fertige Pakete von **0.8.0-pre stehen für Linux x64 und Windows x64 bereit**. Das Linux-Paket benötigt **glibc 2.39 oder neuer**. Es wurde auf Linux Mint 22.3 gebaut. Eine originale OMSI-2-Installation mit ihren Inhalten wird benötigt. OMSI 2, fremde Karten und Mods sind nicht im Paket enthalten.
 
 - **[Linux-x64-Editorpaket](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-linux-x64.tar.gz)**
 - **[SHA256-Prüfsumme](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-0.8.0-pre-linux-x64.tar.gz.sha256)**
 - **[Englische Bedienungsanleitung (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Quick-Guide-EN.pdf)**
 - **[Deutsche Bedienungsanleitung (PDF)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Kurzanleitung.pdf)**
 
-Das Archiv in einen eigenen Ordner entpacken und starten:
+Unter Linux das Archiv in einen eigenen Ordner entpacken und starten:
 
 ```bash
 bash start-editor.sh "/Pfad/zum/openOMSI-Inhaltsordner"
@@ -92,7 +100,7 @@ bash start-editor.sh "/Pfad/zum/openOMSI-Inhaltsordner"
 
 Die originale OMSI-2-Installation gemäß Anleitung einrichten. Karten vor dem Bearbeiten sichern. Der Editor enthält seine eigene Engine; ein Update einer separaten openOMSI-Spielinstallation aktualisiert das Editorpaket nicht. Die automatisch von GitHub angebotenen „Source code“-Archive enthalten Quellcode und sind nicht das startfertige Editorpaket.
 
-Die automatischen Builds und Tests für Linux und Windows sind für den veröffentlichten Quellstand bestanden. **Dieses Release enthält kein startfertiges Windows-Editorpaket.** Build-Prüfungen ersetzen keine Tests einer frischen Installation und der Grafikausgabe.
+Die automatischen Builds und Tests für Linux und Windows sind für den veröffentlichten Quellstand bestanden. Das Windows-ZIP und die Startdatei haben Selbsttests nach frischem Entpacken bestanden. Tests einer frischen Windows-VM-Installation und des Spielbetriebs stehen noch aus.
 
 ### Vorstellungsvideo
 
@@ -100,7 +108,8 @@ Die automatischen Builds und Tests für Linux und Windows sind für den veröffe
 
 ## Source code and feedback / Quellcode und Rückmeldungen
 
-- [Released source / Veröffentlichter Quellstand: v0.8.0-pre](https://github.com/DarkBat2709/openOMSI-Editor/tree/v0.8.0-pre)
+- [Windows package source / Quellstand Windows-Paket: 2d684846](https://github.com/DarkBat2709/openOMSI-Editor/tree/2d684846402c10a40e92c727be045c5b63e49545)
+- [Original release source / Ursprünglicher Release-Quellstand: v0.8.0-pre](https://github.com/DarkBat2709/openOMSI-Editor/tree/v0.8.0-pre)
 - [All releases / Alle Veröffentlichungen](https://github.com/DarkBat2709/openOMSI-Editor/releases)
 - [Report a bug / Fehler melden](https://github.com/DarkBat2709/openOMSI-Editor/issues)
 
