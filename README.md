@@ -52,7 +52,7 @@ Both guides are also included in the package's `docs` folder. GitHub's “Source
 
 ## Deutsch
 
-### Busfahren und Kartenbauen im selben Programm
+### Fahren und Kartenbauen im selben Programm
 
 Mit dem openOMSI-Editor kannst du Karten direkt im Spiel bearbeiten. Ein separates Kartenbauprogramm ist dafür nicht erforderlich.
 
