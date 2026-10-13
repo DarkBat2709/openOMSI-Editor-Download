@@ -39,8 +39,6 @@ For newer versions, check the **[release list](https://github.com/DarkBat2709/op
 
 [Watch/download the demonstration (MP4, German captions, 3:25, no audio)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Vorstellung-DE.mp4)
 
-Fresh Linux/Windows VM installation tests are planned for v0.9. This release provides a Linux x64 package.
-
 ### Getting started
 
 1. Download and extract the Linux package.
@@ -69,8 +67,6 @@ Der Editor ist ein eigener Fork von openOMSI von **DarkBat2709**. Die Inhalte de
 ### Vorstellungsvideo
 
 [Vorstellung ansehen/herunterladen (MP4, Deutsch, 3:25, ohne Ton)](https://github.com/DarkBat2709/openOMSI-Editor/releases/download/v0.8.0-pre/openOMSI-Editor-Vorstellung-DE.mp4)
-
-Frische Linux-/Windows-VM-Installationen testen wir wie geplant für v0.9. Dieses Release bietet ein Linux-x64-Paket.
 
 ### Herunterladen und starten
 
