@@ -50,7 +50,7 @@ Ready-to-run **0.8.3-pre packages are available for Linux x64 and Windows x64**.
 On Linux, extract the archive to a separate folder and run:
 
 ```bash
-bash start-editor.sh "/path/to/openOMSI-content" --launcher
+bash start-editor.sh "/path/to/openOMSI-content"
 ```
 
 Set up the original OMSI 2 installation as described in the guide. Back up your maps before editing. The editor bundles its own engine; updating a separate openOMSI game installation does not update this editor package. GitHub's automatic “Source code” downloads contain source files, not the ready-to-run editor.
@@ -105,7 +105,7 @@ Fertige Pakete von **0.8.3-pre stehen für Linux x64 und Windows x64 bereit**. D
 Unter Linux das Archiv in einen eigenen Ordner entpacken und starten:
 
 ```bash
-bash start-editor.sh "/Pfad/zum/openOMSI-Inhaltsordner" --launcher
+bash start-editor.sh "/Pfad/zum/openOMSI-Inhaltsordner"
 ```
 
 Die originale OMSI-2-Installation gemäß Anleitung einrichten. Karten vor dem Bearbeiten sichern. Der Editor enthält seine eigene Engine; ein Update einer separaten openOMSI-Spielinstallation aktualisiert das Editorpaket nicht. Die automatisch von GitHub angebotenen „Source code“-Archive enthalten Quellcode und sind nicht das startfertige Editorpaket.
