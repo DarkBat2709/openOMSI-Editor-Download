@@ -18,7 +18,7 @@ Kostenloser, experimenteller Community-Karteneditor für openOMSI: Straßen, Spl
 
 ### New in 0.8.5-pre
 
-Windows startup hotfix: the package now includes Microsoft’s DirectX shader compiler libraries. In our Windows 11 VM this resolved a reproducible DirectX 12 stack overflow after a grey window appeared. Confirmation on the originally reported RTX 5070 Ti is still pending. Extract the complete ZIP into a fresh folder.
+Windows startup hotfix: the package now includes Microsoft’s DirectX shader compiler libraries. In our Windows 11 VM this resolved a reproducible DirectX 12 stack overflow after a grey window appeared. Extract the complete ZIP into a fresh folder.
 
 ### Building tools introduced in 0.8.4-pre
 
@@ -77,7 +77,7 @@ Der **openOMSI Editor von DarkBat2709** ist ein kostenloser Community-Fork von [
 
 ### Neu in 0.8.5-pre
 
-Windows-Startfix: Das Paket enthält jetzt Microsofts DirectX-Shadercompiler-Bibliotheken. In unserer Windows-11-VM wurde damit ein reproduzierbarer DirectX-12-Stack-Overflow nach kurzem grauem Fenster behoben. Die Bestätigung auf der ursprünglich gemeldeten RTX 5070 Ti steht noch aus. Das komplette ZIP in einen neuen Ordner entpacken.
+Windows-Startfix: Das Paket enthält jetzt Microsofts DirectX-Shadercompiler-Bibliotheken. In unserer Windows-11-VM wurde damit ein reproduzierbarer DirectX-12-Stack-Overflow nach kurzem grauem Fenster behoben. Das komplette ZIP in einen neuen Ordner entpacken.
 
 ### Bauwerkzeuge aus 0.8.4-pre
 
