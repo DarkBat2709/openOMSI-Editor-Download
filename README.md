@@ -40,7 +40,8 @@ Kostenloser, experimenteller Community-Karteneditor für openOMSI: Straßen, Spl
 - Fixed reloading of deleted and reshaped grouped roundabout paths: deleted curves no longer return as short fragments.
 - Updated German and English PDF guides, 39 pages each, including new screenshots and the original introduction.
 
-Engine base remains **openOMSI 0.3.33**. Map/aerial-image overlays and automatically generated crossings, signs and traffic lights are not included. AI connections do not generate traffic-light control. Back up maps before updating; save, reload and check traffic after editing.
+Engine base remains **openOMSI 0.3.33**.
+Back up maps before updating; save, reload and check traffic after editing.
 
 This project uses the AGPL-3.0-only licence. Exact source and build instructions are linked below.
 
@@ -123,7 +124,8 @@ Der **openOMSI Editor von DarkBat2709** ist ein kostenloser Community-Fork von [
 - **Speichern und Neuladen korrigiert:** Gelöschte Kreisverkehr-Fahrkurven erscheinen nicht mehr als kurze Reststücke. Gespeicherte Formänderungen werden auf die vollständige Fahrkurve angewendet.
 - **Anleitungen:** Deutsche und englische PDF mit aktuellen Bildern, neuen KI-Anleitungen, geordneten Kapiteln und wiederhergestellter ursprünglicher Einleitung; jeweils 39 Seiten.
 
-Die openOMSI-Basis bleibt **0.3.33**. Landkarten-/Luftbild-Unterlagen sowie automatisch erzeugte Fußgängerüberwege, Schilder und Ampeln sind noch nicht enthalten. KI-Verbindungen erzeugen keine automatische Ampelsteuerung. Karten vor dem Update sichern und nach Änderungen speichern, neu laden und den Verkehr prüfen.
+Die openOMSI-Basis bleibt **0.3.33**.
+Karten vor dem Update sichern und nach Änderungen speichern, neu laden und den Verkehr prüfen.
 
 Das Projekt verwendet die AGPL-3.0-only-Lizenz. Quellstand und Bauanleitung sind unten verlinkt.
 
